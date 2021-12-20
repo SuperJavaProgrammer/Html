@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<title>Заголовок страницы</title>
+<!-- 
+запретить или разрешить индексацию, переход по ссылкам
+<meta name="robots" content="index, follow">	
+кодировка текста
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+автоматическая перегрузка страницы
+<meta http-equiv="refresh" content="30">
+перебросить посетителя на другую страницу
+<meta http-equiv="refresh" content="0; url=http://mail.ru/"> 
+-->
+
+<style type="text/css">
+   div { /* Стиль для всех тегов DIV */
+      font-size: 12pt; /* Размер шрифта */
+      color: green; /* Цвет шрифта */
+      font-family: "Arial"; /* Название шрифта */
+      border: 1px solid black; /* Определение стиля для границы */
+      padding: 5px; /* Размер внутренних отступов */
+   }
+   span { /* Стиль для всех тегов SPAN */
+      font-size: 12pt; /* Размер шрифта */
+      color: red; /* Цвет шрифта */
+      font-family: "Arial"; /* Название шрифта */
+      font-weight: bold; /* Жирность шрифта */
+   }
+ </style>
+
+
+</head>
+
+<!--
+<frameset rows="100, *"> <!-- Разбиение на строки. * -все оставшееся место
+  <frame src="3.html" name="chapter" scrolling="auto/yes/no" marginwidth="5" marginheight="5" frameborder="1/0" noresize>
+  <frameset cols="20%, 80%"> <!-- Разбиение на столбцы
+    <frame src="4.html" >
+    <frame>
+  </frameset>
+  <noframes>
+    <p>Ваш Web-браузер не отображает фреймы</p>
+  </noframes>
+</frameset>
+ -->
+
+<!-- цвет активной ссылки, цвет непросмотренной ссылки, цвет просмотренных ссылок, цвет текста, цвет фона, фоновый рисунок -->
+<body alink="#FF0000" link="#000000" vlink="#000080" text="#000000" bgcolor="#f0f0f0" background="foto.gif">
+
+<!--  &lt-<, &gt->, &amp-&, &nbsp-неразрывный пробел, &quot-двойная кавычка, &copy-знак авторских прав, &reg-знак зарегистрированной торговой марки, &trade-торговая марка -->
+
+<b>Полужирный шрифт b</b><br>
+<strong>Полужирный шрифт+ strong</strong><br>
+<i>Текст, выделенный курсивом i</i><br>
+<em>Текст, выделенный курсивом+ em</em><br>
+<u>Подчеркнутый текст u</u><br>
+<strike>Перечеркнутый текст strike</strike><br>
+<s>Перечеркнутый текст+ s</s><br>
+
+Нижний индекс sub H<sub>2</sub>O <br>
+Верхний индекс sup - м<sup>2</sup><br>
+
+<font face="Verdana" size="4" color="#FF0000">Текст font face size color</font><br>
+
+Текст  обычный <font size="+1">Текст с увеличенным на 1 размером size+1</font> Обычный размер снова<br>
+
+Текст <big>большего big</big> размера.<br>
+
+Текст <small>меньшего small</small> размера.<br>
+<tt>Моноширинный шрифт tt</tt><br>
+
+Перевод на другую строку<br>
+
+<pre>
+Этот     текст
+выВо    дится в ОригинаЛе
+дааа          да      pre
+</pre><br>
+
+Горизонтальная линия hr size color align noshade<hr size="5" width="100" color="red" align="left" noshade><br>
+
+<h1 align="center">Самый крупный заголовок 1 уровня h1 align</h1><br>
+<h6 align="right">Самый мелкий заголовок 6 уровня h6 align</h6><br>
+
+<p align="justify">Абзац с выравниванием по ширине p align="justify"</p><br>
+
+<ul type="circle">
+  <li>Маркированный список. Первый пункт ul type(circle/disc/circle/square) li
+  <li>Маркированный список. Второй пункт
+</ul><br>
+
+<ol type="1" start="5">
+  <li>Нумерованный список. Первый пункт ol type(1, A, a, I, i) start li
+  <li value="8">Второй пункт li value="8"
+  <li>Третий пункт
+</ol><br>
+
+<dl>
+  <dt>Списки определений dl dt. Это определение. HTML (HyperText Markup Language)</dt>
+    <dd>
+         Это объяснение dd. Язык разметки документа, описывающий форму отображения          информации на экране компьютера
+    </dd>
+  <dt>CSS (Cascading Style Sheets)</dt>
+    <dd>Каскадные таблицы стилей</dd>
+</dl><br>
+
+<a href="#chapter1">Внутренняя гиперссылка a href="#</a><br>
+
+Фото img src width height border alt align hspace vspace <img src="pic.jpg" width="100" height="100" border="3"  alt="Текст подсказки" align="right"  hspace="20" vspace="20" ><br>
+
+<a href="http://google.com">Ссылка на другую страницу a href</a><br>
+Ссылка с изображением a href+img src alt <a href="http://google.com"> <img src="pic.jpg" alt="Подсказка"></a><br>
+
+<a href="file2.html">Файл там, где и исходный</a><br>
+<a href="folder3/file2.html">Файл в папке внутри</a><br>
+<a href="../file2.html">Файл выше на 1 папку ../</a><br>
+<a href="../../file2.html">Файл выше на 2 папки ../../ </a><br>
+<a href="http://www.mysite.ru/file.html" target="_blank">Загрузить в новое окно target="_blank"</a><br>
+
+<a name="chapter1">Задать имя указателя, к которому будет ввести ссылка a name</a><br>
+<a href="http://www.mysite.ru/file.html#chapter6">Для другого сайта a href="...#</a><br>
+
+<a href="mailto:mail@mysite.ru">Ссылка на адрес электронной почты a href="mailto:</a><br>
+
+Таблица table border width cellspacing cellpadding align bgcolor
+<table border="3" width="200" cellspacing="2" cellpadding="2" align="left" bgcolor="silver">
+  <caption align="top/bottom">Заголовок таблицы caption align(top/bottom)</caption>
+  <tbody>
+      <tr>
+        <th>Заголовок ячейки1 tbody+tr+th</th>
+        <th>Заголовок ячейки2 th</th>
+        <th>Заголовок ячейки3</th>
+        <th>Заголовок ячейки4</th>
+    </tr>
+    <tr align="left/right/center/justify valign="top/middle/bottom/baseline">
+      <td align="center" colspan="2">1 Соединение колонок colspan</td>
+      <td align="center" rowspan="2">2 Соединение столбцов rowspan</td>
+      <td align="center">3 tr+td align </td>
+    </tr>
+    <tr>
+      <td align="center">4 tr+td align</td>
+      <td align="center">5</td>
+      <td align="center">6</td>
+    </tr>
+  </tbody>
+</table><br><br><br><br><br><br><br><br><br><br><br>
+
+Фрейм iframe src name scrolling(auto/no/yes) marginwidth marginheight frameborder(1/0) width  height align __Ваш Web-браузер не отображает фреймы__
+<iframe src="2.html" name="chapter" scrolling="auto" marginwidth="5" marginheight="5" frameborder="1" width="200"  height="200" align="middle">Ваш Web-браузер не отображает фреймы</iframe><br>
+
+Карта изображения img src usemap="#karta"<br>
+map name="karta"<br>
+area shape(rect/circle/poly/default) href/nohref target alt<br>
+<img src="https://cs541606.userapi.com/c836423/v836423929/26d85/c6UTq_qRSgE.jpg" alt="Текст подсказки" width="800" height="1000" border="1" usemap="#karta">
+  <map name="karta">
+    <area shape="rect" coords="0,0,120,120" href="3.html" target="chapter" alt="Глава 1">
+    <area shape="rect" coords="0,120,240,240" href="4.html" target="chapter" alt="Глава 2">
+    <area shape="circle" coords="x1, y1, r" href="3.html" target="chapter" alt="Глава 2">
+    <area shape="poly" coords="x1, y1, x2, y2, x3, y3,..." href="3.html" target="chapter" alt="Глава 1">
+    <area shape="default" alt="" nohref>
+  </map><br>
+
+Создание формы form name action method enctype target autocomplete(off/on), novalidate <br>
+<form name="form1" action="file.php" method="GET/POST" enctype="application/x-www-form-urlencoded/multipart/form-data" target="_blank" autocomplete="off" novalidate> 
+Текстовое поле ввода input type="text" name disabled value maxlength size readonly <input type="text" name="pole1" disabled value="http://" maxlength="100" size="20" readonly><br>
+Для пароля password"<input type="password"><br>
+Для файла file <input type="file">	<br>
+Флажок checkbox name value checked <input type="checkbox" name="check1" value="yes" checked><br>
+Объединить в группу флажков name="check[]" <input type="checkbox" name="check[]" value="1">
+<input type="checkbox" name="check[]" value="2">
+<input type="checkbox" name="check[]" value="3"><br>
+Переключатель radio name value checked <input type="radio" name="radio1" value="yes" checked>
+<input type="radio" name="radio1" value="no"><br>
+Кнопка сброса reset <input type="reset"><br>
+Отправка данных submit value <input type="submit" value="Отправить"><br>
+Обычная кнопка button <input type="button"><br>
+Скрытый элемент hidden name value <input type="hidden" name="hiddenpole" value="1"><br>
+Текстовая область textarea name cols rows
+<textarea name="pole2" cols="15" rows="10">
+Текст по умолчанию
+</textarea><br>
+
+Список с предопределенными значениями select name="select[]" size multiple. Для группы optgroup label
+<select name="select[]" size="3" multiple>
+<optgroup label="Отечественные">
+<option value="val1" selected> Элемент1 option value selected </option>
+<option>Элемент2</option>
+</optgroup>
+<optgroup label="Зарубежные">
+<option>Элемент3</option>
+<option>Элемент4</option>
+</optgroup>
+</select><br>
+
+Указание метки label accesskey Текст input type="password"
+<label accesskey="N">N для быстрого доступа. Пароль*:  <input type="password" name="pass1" id="pass1"></label><br>
+
+Сгруппировать элементы fieldset+legend
+<fieldset>
+   <legend>Пол</legend>
+   Муж. <input type="radio" name="sex" value="1">
+   Жен. <input type="radio" name="sex" value="2">
+</fieldset>	<br>
+Имейл input type="email" name required placeholder <input type="email" name="email" required placeholder="Ваш e-mail"><br>
+Прокрутка range name min max step <input type="range" name="level" min="1" max="10" step="1"><br>
+Дата date name autofocus<input type="date" name="birthday" autofocus><br>
+Задать шаблон pattern placeholder <input type="text" name="post_code" pattern="[0-9]{6}" placeholder="Код почтового отделения (шесть цифр)"><br>
+</form>
+
+<div align="center">Элемент DIV align занимает всю ширину родительского элемента</div>
+<p>С помощью элемента <span>SPAN</span> можно отформатировать <span>фрагмент</span> внутри абзаца </p>
+
+<header>
+<h1>Разметка. Элемент header</h1>
+</header>
+<nav>
+      <p><a href="4.html">Разметка. Элемент nav 1</a></p>
+      <p><a href="3.html">Разметка. Элемент nav 2</a></p>
+</nav>
+<section>
+      <p>Разметка. Элемент section. Основное содержимое</p>
+      <article>
+        <h2>Разметка. Элемент article. Заголовок статьи</h2>
+        <p>Текст статьи</p>
+        <mark>
+          <p>Разметка. Элемент mark. Важный фрагмент статьи</p>
+        </mark>
+        <figure>
+          <p><img src="pic.jpg"></p>
+          <figcaption>Разметка. Элемент figure. Иллюстрация</figcaption>
+        </figure>
+        <aside>
+          <p>Разметка. Элемент aside. Примечание к статье</p>
+        </aside>
+      <article>
+    </section>
+    <footer>
+      <p>Разметка. Элемент footer. Страница была сделана в <time datetime="2014-01-01 00:00">Новый
+      год</time></p>
+      <p>Все права защищены</p>
+    </footer><br>
+
+Вставка аудиоролика audio src autoplay controls loop muted preload
+<audio src="Sabrina - Я Не Могу Так Жить.mp3" autoplay controls loop muted preload="metadata"></audio><br>
+
+Вставка видеоролика video src controls width height poster
+<video src="Добро пожаловать.mp4" controls width="640" height="360" poster="pic.jpg"></video><br>
+
+Указание нескольких источников аудио или видео video controls+source src1, source src2...
+<video controls>
+  <source src="video.mp4">
+  <source src="video.webm">
+</video><br>
+
+Автозаполнение datalist id+option value. input type="text" list=id
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<input type="text" name="browser" list="browsers"
+placeholder="Ваш Web-обозреватель">
+</body> 
+</html>

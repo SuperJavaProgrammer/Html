@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+<title>Заголовок страницы</title>
+
+<!-- 
+Запретить или разрешить индексацию, переход по ссылкам (в <head> перед <body>)
+<meta name="robots" content="index, follow">
+Кодировка текста
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+Автоматическая перегрузка страницы
+<meta http-equiv="refresh" content="30">
+Перебросить посетителя на другую страницу
+<meta http-equiv="refresh" content=0; url=http://mail.ru/"> 
+Добавить таблицы стилей
+<style type="text/css">ТС</style>
+-->
+
+</head>
+
+<body alink="#FF0000" link="#000000" vlink="#000080" text="#000000" background="1.jpg" bgcolor="gray">
+
+РАЗМЕТКА ТЕКСТА
+<p align="center">Абзац, выравнивание по ширине</p>		<!-- align (center/left/right/justify) -->
+
+<h1 align="right">Заголовок 1 уровня</h1>
+<h6>Заголовок 6 уровня</h6>
+
+<hgroup>
+	<h1>Группа составных заголовков 1</h1>
+	<h2>Группа составных заголовков 2</h2>
+	<h3>Группа составных заголовков 3</h3>
+</hgroup>
+
+<ul type="circle">					<!-- type(circle/disc/circle/square) -->
+	<li>Маркированный список 1</li>
+	<li>Маркированный список 2</li>
+	<li>Маркированный список 3</li>
+</ul>
+
+<ol type=1 start=5>					<!-- type(1, A, a, I, i) -->
+	<li>Нумерованный список 1</li>
+	<li value=9>Нумерованный список 2</li>
+	<li>Нумерованный список 3</li>
+</оl>
+
+Список определений
+<dl>
+	<dt>Термин 1</dt><dd>Объяснение 1</dd>
+	<dt>Термин 2</dt><dd>Объяснение 2</dd>
+	<dt>Термин 3</dt><dd>Объяснение 3</dd>
+</dl>
+
+<blockquote>Длинные цитаты</blockquote>
+<pre>Предварительно     отформатированный     	текст</pre>
+
+<figure>
+	<img src="pic.jpg">
+	<figcaption>Связанное с контентом изображение или ресурс</figcaption>
+</figure>
+
+<section>Тематическая группа контента</section>
+<article>Автономная композиция для многократного использования</article>
+<aside>Косвенно связанные с контентом материалы</aside>
+<nav>Ссылки основной навигации</nav>
+<header>Верхний колонтитул страницы раздела или статьи</header>
+<footer>Нижний колонтитул страницы раздела или статьи</footer>
+<address>Контактная информация</address>
+
+<em>	Выделенный текст для акцентирования</em><br>
+<strong>	Выделенный текст, которому придают особое значение</strong>	<br>
+<b>	Начертание полужирным шрифтом</b><br>
+<i>	Альтернативное отображение текста (курсивом)</i><br>
+<u>	Подчеркнутый</u><br>
+<s>	Неверный текст (зачеркивание)</s><br>
+<small>	Мелкий шрифт, например, в сообщениях о защите авторских прав или уведомлении (отображается шрифтом меньшего размера)</small><br>
+<q>	Короткое, встроенное цитирование</q><br>
+<abbr>	Аббревиатура</abbr>	<br>
+<cite>	Цитата; ссылка на заголовок работы, например, на название книги</cite><br>
+<dfn>	Термин определения или первое появление термина</dfn><br>
+<code>	Пример кода программы</code><br>
+<var>	Переменная величина или аргумент программы (для технических документов)</var><br>
+<samp id="startN">	Образец вывода программы (листинг). Внутренняя ссылка идет сюда!</samp><br>
+<kbd>	Клавиатура; текст, введенный пользователем (для технических документов)</kbd><br>
+<sub>	Нижний индекс (для хим. уравнений, мат. формул)</sub><br>
+<sup>	Верхний индекс</sup><br>
+<mark>	Контекстуально значимый текст</mark><br>
+<time>	Машиночитаемое время</time><br>
+<data>	Машиночитаемые эквиваленты дат, времени, веса и других измеряемых значений</data><br>
+<ins>	Вставленный текст; указывает вставку в документе</ins><br>
+<del>	Удаленный текст; указывает редактирование, выполненное для документа</del><br>
+Перевод строки<br>	
+<wbr>	Перенос слова</wbr><br>
+<strike>	Неверный текст (зачеркивание)</strike><br>
+
+<div class = "listing" align="center">Общий блочный элемент div. Использовать ТС, чтобы редактировать</div>	
+<div id = "novosti" >div</div>
+<span class = " listing">Общий встроенный элемент span. Использовать ТС, чтобы редактировать</span><br>
+<span id = "novosti" >span</span><br>
+
+Пробел	&nbsp;<br>
+&	&amp;<br>
+' 	&apos;<br>
+<	&lt;<br>
+>	&gt;<br>
+© 	&copy;<br>
+®	&reg;<br>
+™	&trade;<br>
+?	&pound;<br>
+?	&yen;<br>
+€	&euro;<br>
+–	&ndash;<br>
+—	&mdash;<br>
+‘	&lsquo;<br>
+’ 	&rsquo;<br>
+“ 	&ldquo;<br>
+”	&rdquo;<br>
+•	&bull;<br>
+…	&hellip;<br>
+
+<font face="Verdana" size=7 color="red">Текст 7 шрифтом</font><br>
+Текст <big>большего</big> размера<br>
+Текст <small>меньшего</small> размера<br>
+
+Горизонтальная линия
+<hr size=20 width=300 color="green" align="justify" noshade></hr>
+
+ДОБАВЛЕНИЕ ССЫЛОК<br>
+<a href="http://google.com">Ссылка на другую страницу</a><br>
+Ссылка с изображением <a href="http://ya.ru"> <img src="pic.jpg" alt="Подсказка"></a><br>
+<a href="1.html">Файл там, где и исходный</a><br>
+<a href="In/2.html">Файл в папке внутри</a><br>
+<a href="../3.html">Файл выше на 1 папку</a><br>	
+<a href="#startN">Образец вывода программы</a><br>
+<a href="http://mail.ru" target="_blank">Всегда новое окно</a><br>
+<a href="http://mail.ru" target="display">Окно display</a><br>
+<a href="http://mail.ru" target="_self">Там, где находится ссылка</a><br>
+<a href="http://mail.ru" target="_top">Поверх всех</a><br>
+<a href="http://mail.ru" target="_parent">В родительском</a><br>
+<a href="mailto:aivanov@yandex.ru">Ссылка на адрес электронной почты</a><br>
+<a href=" tel:18005551212">Вызов телефона</a><br><br>
+
+ДОБАВЛЕНИЕ ИЗОБРАЖЕНИЙ<br>
+<a href="pic.jpg">Открыть изображение</a><br>
+<img src="pic.jpg" alt="Дева" width=500 height=500 title="Дева Якубовича" border=3 align="right"  hspace=20 vspace=20>
+<!-- align(left/right/top/bottom/middle) -->
+Фрейм<br>
+<iframe src="Сайт.html" name="frame" scrolling="auto" marginwidth="5" marginheight="5" frameborder="1" width="600"  height="600" align="middle">Ваш Web-браузер не отображает фреймы</iframe><br>
+<!-- scrolling(auto/yes/no) frameborder(1/0) -->
+Карта изображения<br>
+<img src="https://cs541606.userapi.com/c836423/v836423929/26d85/c6UTq_qRSgE.jpg" alt="Фильмы" width="800" height="1000" usemap="#karta">
+<map name="karta">
+	<area shape="rect" coords="0,0,120,120" href="1.html">
+	<area shape="circle" coords="200, 200, 50" href="2.html">
+	<area shape="poly" coords="300, 300, 300, 400, 500, 500" href="3.html">
+	<area shape="default" alt="" nohref>
+</map><br><br>
+
+РАЗМЕТКА ТАБЛИЦ<br>
+<table border="3" width="200" cellspacing="2" cellpadding="2" align="left" bgcolor="silver">
+	<caption align="top">Заголовок таблицы</caption>	<!-- align(top/bottom) -->
+      	<tr align="right" valign="top">			<!-- valign(top/middle/bottom/baseline)-->
+        		<th>Заголовок ячейки1</th>
+       		<th>Заголовок ячейки2</th>
+        		<th>Заголовок ячейки3</th>
+        		<th>Заголовок ячейки4</th>
+    	</tr>
+	<tr>
+		<td align="center" colspan="2">1 Соединение колонок</td>
+		<td rowspan="2">2 Соединение столбцов</td>
+		<td>Ячейка 3</td>
+	</tr>
+	<tr>
+		<td>Ячейка 4</td>
+		<td>Ячейка 5</td>
+		<td>Ячейка 6</td>
+	</tr>
+</table><br><br><br><br><br><br><br><br>
+
+ФОРМЫ<br>
+<form name="form1" action="file.php" method="GET/POST" enctype="application/x-www-form-urlencoded/multipart/form-data" target="_blank" autocomplete="off" novalidate>
+
+Текстовое поле ввода
+<input type="text" name="pole1" required placeholder="подсквазка" disabled value="5544" pattern="[0-9]{6}" maxlength="100" size="20" readonly><br>
+
+Раскрывающийся список выбора
+<input type="text" list="edulevel">
+<datalist id="edulevel" >
+   <option value="Cpeднee">
+   <option value="Cpeднee специальное">
+   <option value="Bысшee">
+</datalist><br>
+
+Текстовая область
+<textarea name="pole2" cols="15" rows="10" placeholder="hello" maxlength=100 wrap="soft/hard")>
+	Текст по умолчанию
+	Внутри области textarea
+</textarea><br>
+
+Поле ввода пароля	<!-- параметры, как у type="text" , но без list -->
+<input type="password"><br>
+
+Поле поиска	<!-- параметры, как у type="text"  -->
+<input type="search"><br>
+
+Телефон		<!-- параметры, как у type="text"  -->
+<input type="tel"><br>
+
+Расположение (URL-aдрec)	<!-- параметры, как у type="text"  -->
+<input type="url"><br>
+
+Адрес электронной почты	<!-- параметры, как у type="text" + multiple  -->
+<input type="email" multiple><br>
+
+Кнопка отправки данных
+<input type="submit" name="send" value="hello" autofocus disabled><br>
+
+Кнопка сброса	<!-- параметры, как у type="submit" -->
+<input type="reset"><br>
+
+Просто кнопка	<!-- параметры, как у type="submit" -->
+<input type="button"><br>
+
+Кнопка с изображением
+<input type="image" alt="ImageButton" name="girl" src="pic.jpg" autofocus height=100 width=150 disabled><br>
+
+Переключатели
+<input type="radio" name="radio1" value="yes" checked autofocus required disabled readonly>yes
+<input type="radio" name="radio1">no
+<input type="radio" name="radio1">maybe
+<input type="radio" name="radio1">don't know
+<input type="radio">hahaha<br>
+
+Флажки	<!-- параметры, как у type="radio" -->
+<input type="checkbox" name="check[]">1
+<input type="checkbox" name="check[]">2
+<input type="checkbox" name="check[]">3<br>
+
+Список с предопределенными значениями
+<select name="select[]" size="3" multiple>
+<optgroup label="Отечественные">
+<option value="val1" selected> Элемент1</option>
+<option>Элемент2</option>
+</optgroup>
+<optgroup label="Зарубежные">
+<option>Элемент3</option>
+<option>Элемент4</option>
+<option>Элемент5</option>
+</optgroup>
+</select><br>
+
+Выбор файла	<!-- параметры, как у type="text"> без placeholder -->
+<input type="file"><br>
+
+Скрытый элемент формы
+<input type="hidden" name="hiddenpole" value="1" multiple disabled><br>
+
+Элементы даты и времени
+<input type="date" name="dt" value="1 Jun 2018" max="1 Jun 2019" min="1 Jun 2017" list="datelist" step=1 autofocus required disabled readonly><br>
+<input type="time"><br>
+<input type="datetime" ><br>
+<input tуре="datetime-local"><br>
+<input type="month"><br>
+<input type="week"><br>
+
+Ввод чисел		<!-- параметры, как у type="date"  -->
+<input type="number"><br>
+
+Ползунковый регулятор	<!-- параметры, как у type="number"> без readonly, required -->
+<input type="range"><br>
+
+Выбор цвета
+<input type="color" name="setcolor" value="red" autofocus list="collist" disabled><br>
+
+Сгруппировать элементы
+<fieldset>
+<legend>Пол</legend>
+	<input type="radio" name="sex">Муж. 
+	<input type="radio" name="sex">Жен. 
+<legend>Возраст</legend>
+	<input type="radio" name="age">0-20
+	<input type="radio" name="age">20-40
+	<input type="radio" name="age">40-60
+</fieldset>	<br>
+
+Клавиша быстрого доступа
+<label accesskey="N">N. Пароль*:  <input type="password"></label><br>
+
+</form>
+
+Добавление видеоконтента на страницу<br>
+<video src="Добро пожаловать.mp4" width="640" height="360" poster="pic.jpg" controls loop muted preload="metadata" autoplay>
+	<source src="Добро пожаловать.mp4">
+	<source src="Добро пожаловать.mp4">
+</video><br>
+
+Добавление аудиоконтента на страницу<br>
+<audio src="Sabrina - Я Не Могу Так Жить.mp3" controls loop muted preload="metadata" autoplay></audio>
+
+</body> 
+</html>
